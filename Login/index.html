@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kondomu</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form onsubmit="login()" id="loginForm" action="index.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="assets/img/logo.png" alt="easyclass" />
+                <h4>Kondomu</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Vous revoila</h2>
+                <h6>Toujours pas enregistrer ?</h6>
+                <a href="#" class="toggle">S'enregistrer</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input id="email" type="text" class="input" required />
+                  <span class="placeholder">Email Id</span>
+                </div>
+
+                <div class="input-wrap">
+                  <input id="password" type="password" class="input" required />
+                  <span class="placeholder">Password</span>
+                </div>
+                <button type="submit" class="btn btn-primary">S'enregistrer</button>
+
+                <p class="text">
+                  Mots de passe oubliée
+                  <a href="#" onclick="forgotPass()">Avoir de l'aide</a>
+                </p>
+                <span id="error" style="color: red"></span></small>
+              </div>
+            </form>
+
+            <form action="index.html" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="assets/img/logo.png" alt="easyclass" />
+                <h4>Kondomu</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Bienvenue</h2>
+                <h6>Vous avez déjà un compte ?</h6>
+                <a href="#" class="toggle">Se connecter</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Nom de Famille</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Adresse Mail</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Mots de Passe</label>
+                </div>
+
+                <input type="submit" value="S'enregistrer" class="sign-btn" />
+                <button onclick="signUp()" class="btn btn-secondary">Sign Up</button>
+
+                <!--<p class="text">
+                  By signing up, I agree to the
+                  En créant un compte, vous accepter les 
+                  <a href="#">conditions d'utilisation</a> et la 
+                  <a href="#">politique de vie privée</a>
+                
+                </p>-->
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="assets/img/world_aids_day.jpg" class="image img-1 show" alt="" />
+              <img src="assets/img/image2.png" class="image img-2" alt="" />
+              <img src="assets/img/image3.png" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Create your own courses</h2>
+                  <h2>Customize as you like</h2>
+                  <h2>Invite students to your class</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/firebase.js"></script>
+  </body>
+</html>

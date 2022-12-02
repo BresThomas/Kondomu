@@ -316,3 +316,15 @@ img{
   top: 5px;
   left: 10px;
 }
+
+.hidden:hover{
+
+  color:black ;
+}
+
+.hidden{
+  position: absolute;
+  left: 1%;
+  top:30px;
+  color:#FCA4A6;
+}

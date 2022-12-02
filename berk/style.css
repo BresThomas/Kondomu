@@ -1,0 +1,106 @@
+.main{
+    font-size: 20px;
+    background-color: aqua;
+    border: 50px green ;
+    transform:  rotate( 
+        90deg);
+    width: 500px;
+    flex-wrap: wrap;
+    
+}
+a{color:white}
+#a42{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 50px;
+}
+#a42:target{
+    opacity: 1;
+    visibility: visible;
+    background-color: black;
+    background-size: cover;
+    background-position: 
+    center 
+    center;
+    color: 
+            white;
+    position:absolute;
+    padding: 100%;
+
+}
+div[name=absolute]
+{
+                position: absolute;
+    background-color: blueviolet;
+    color: 
+            rgb(
+        20, 
+        81, 
+        20);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    text-align: justify;
+    top:0;
+    left: 0;
+    padding: 0;
+}
+.cdssdfghn{
+    position: sticky;
+    width: 200px;
+    background-color: rgb(208,  
+    20, 108);
+    color: rgb(211,
+     240, 19);
+    left: 30%;
+    transform:      rotate(50deg);
+    border-radius: 
+        56px  
+    98px 
+            53px 
+      20px;
+}
+div{
+    background: blue;
+            position: absolute;
+    color: rgb(11, 11, 227);
+    margin-top: 5vw;
+}
+div +div+div+div+div+div+div{
+    margin-top: 10em;
+    background-color: rgb(229, 17, 176);
+    width: 40%;
+    margin-left: 60%;
+    font-size: 80px;
+    text-align: right;
+    top: -200px;
+}
+# 3{
+    width: 800px;
+    margin-top: 20em;
+    background-color
+    : peru;
+    color: rgb(131,
+     222, 34);
+    left: 0;
+    margin-left: 4em;
+    margin-top:900px;
+    font-size: 20px;
+    text-align: initial;
+    transform: rotate(
+        340deg);
+}

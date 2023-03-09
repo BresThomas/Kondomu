@@ -1,7 +1,9 @@
 # Kondomu
 <br/>
-Ce projet a été réalisé en équipe au cours d'une compétition d'une nuit, dont l'objectif était de concevoir un site web dédié à la prévention du VIH/SIDA. Nous avons travaillé ardemment pour produire un site web efficace et informatif, et sommes fiers d'avoir remporté la troisième place. Notre équipe a su collaborer efficacement en combinant les compétences et les connaissances de chacun de ses membres pour concevoir un site web attractif et accessible, qui offrait des informations vitales sur la prévention et la lutte contre le VIH/SIDA. Nous sommes particulièrement fiers d'avoir relevé le défi et livré un projet de qualité, malgré la brièveté du délai imparti. Ce résultat témoigne de notre capacité à travailler sous pression et à fournir un travail même dans des conditions difficiles.<br/><br/>
-
+Ce projet a été réalisé en équipe au cours d'une compétition d'une nuit, dont l'objectif était de concevoir un site web dédié à la prévention du VIH/SIDA. Nous avons travaillé ardemment pour produire un site web efficace et informatif, et sommes fiers d'avoir remporté la troisième place. Notre équipe a su collaborer efficacement en combinant les compétences et les connaissances de chacun de ses membres pour concevoir un site web attractif et accessible, qui offrait des informations vitales sur la prévention et la lutte contre le VIH/SIDA. Nous sommes particulièrement fiers d'avoir relevé le défi et livré un projet de qualité, malgré la brièveté du délai imparti. Ce résultat témoigne de notre capacité à travailler sous pression et à fournir un travail même dans des conditions difficiles.
+<br/>
+<br/>
+<br/>
 ![login_konfomu](https://user-images.githubusercontent.com/59121834/224043891-c0281547-d59c-4990-aab7-6ee92d3bbd90.PNG)
 ![accueil](https://user-images.githubusercontent.com/59121834/224044797-ab2b27fd-6639-4680-9d10-f3011b075f37.PNG)
 ![quiz_kondomu](https://user-images.githubusercontent.com/59121834/224043881-c6ecf798-1f9e-4da3-b671-ec4c1c11a680.PNG)

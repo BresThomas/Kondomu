@@ -1,5 +1,8 @@
 # Kondomu
 
+** URL: **
+https://kondomu.cf
+
 Ce projet a été réalisé en équipe au cours d'une compétition d'une nuit, dont l'objectif était de concevoir un site web dédié à la prévention du VIH/SIDA. Nous avons travaillé ardemment pour produire un site web efficace et informatif, et sommes fiers d'avoir remporté la troisième place. Notre équipe a su collaborer efficacement en combinant les compétences et les connaissances de chacun de ses membres pour concevoir un site web attractif et accessible, qui offrait des informations vitales sur la prévention et la lutte contre le VIH/SIDA. Nous sommes particulièrement fiers d'avoir relevé le défi et livré un projet de qualité, malgré la brièveté du délai imparti. Ce résultat témoigne de notre capacité à travailler sous pression et à fournir un travail même dans des conditions difficiles.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
